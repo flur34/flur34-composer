@@ -26,9 +26,9 @@ Prerequisites:
 - rule34 API credentials
 
 1. Clone the repository
-    - If storage is a concern, You only need `compose.yaml`, `container/Caddyfile` and `.env`.
+    - If storage is a concern, You only need `compose.yaml`, `Caddyfile` and `.env` (renamed from `.env.example`).
     - Alternatively, you can clone the repo with limited history:
-        - Command: `git clone --depth 1 https://github.com/flurbudurbur/kurosearch.git`
+        - Command: `git clone --depth 1 https://github.com/flur34/flur34-composer.git`
 2. Edit the .env file. Every variable is required! Don't edit the existing ones unless you know what you're doing.
 3. Run `docker compose up -d`
 
@@ -54,15 +54,4 @@ Please make sure to update tests as appropriate.
 Open 'em up in the issues tab (preferably) or contact me. Info below.
 
 Discord: `@flurbudurbur`
-
-## Planned Features
-
-Always taking suggestions!
-
-- [ ] Shared caching database like Redis/Valkey.
-- [ ] Public instances page to view and use community member's instances.
-- [ ] R34 API polling and caching to always have latest images pre-loaded.
-
-### Nice to have
-
-- [ ] GitHub workflow that compiles and publishes new releases.
+Server: https://discord.gg/AxUnC7n9ZP

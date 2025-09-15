@@ -19,7 +19,7 @@ services:
     volumes:
       - caddy-data:/data
       - caddy-config:/config
-      - ./container/Caddyfile:/etc/caddy/Caddyfile:ro
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
     env_file:
       - '.env'
     networks:
